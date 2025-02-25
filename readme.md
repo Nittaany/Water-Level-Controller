@@ -6,7 +6,9 @@
   <img src="https://drive.google.com/uc?export=view&id=192H-Mnfk8emOOqGGc8QlU_KqVA1hWBod" alt="Working Model" width="600" />
 </div>
 
-> **Find Documentation & Resources! 📚 **
+
+
+> Find Documentation & Resources! 📚 
 
 ---
 
@@ -61,7 +63,9 @@ This project employs an ultrasonic sensor to measure water level and automatical
 
 - **Working Demo Video:** [Watch Here](https://drive.google.com/file/d/1TBmy9M0k2LNoWJ65NNz6bQ8MHIUsC6q0/view?usp=drive_link)
 - **Photo of the Model:**  
-  ![Model Photo](https://drive.google.com/uc?export=view&id=192H-Mnfk8emOOqGGc8QlU_KqVA1hWBod)
+  ![Model Photo]
+
+(https://drive.google.com/uc?export=view&id=192H-Mnfk8emOOqGGc8QlU_KqVA1hWBod)
 - **IEEE Paper:** [Download IEEE Paper](https://drive.google.com/file/d/10rUBdXM_WwcKP4FapUVsXkZ6iGJeymsf/view?usp=sharing)
 
 ---
