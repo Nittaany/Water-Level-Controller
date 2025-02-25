@@ -11,7 +11,7 @@
 
 
 
-> Find Documentation & Resources! 📚 
+> Find Documentation & Resources Below! 📚 
 
 ---
 
