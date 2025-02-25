@@ -1,99 +1,97 @@
-# Water Level Monitoring & Pump Control System
+# 💧 Water Level Monitoring & Pump Control System
 
-This mini project was developed as part of our **Computer Organization and Architecture** and **Design Thinking and Management** courses. It’s a fun, practical project that integrates both hardware and software, featuring a working model that monitors water levels and controls a pump automatically—with a manual override option.
+<div align="center">
+  <img src="https://link-to-your-model-photo.com" alt="Working Model" width="600" />
+</div>
 
----
-
-## Overview
-
-The project uses an ultrasonic sensor to measure the water level in a container and displays the level as a percentage on an I²C LCD. A pump is controlled based on the water level: it automatically turns on when the water level drops below a threshold (30%) and turns off when nearly full (above 99%). Users can also calibrate the system and manually override the pump status using buttons. The calibration data is stored in EEPROM.
+**Water Level Monitoring & Pump Control System** is a dynamic prototype developed as part of our **Computer Organization and Architecture** and **Design Thinking and Management** courses. This project combines both hardware and software to create a fully functional model that simulates water level detection and pump control in an innovative way.
 
 ---
 
-## Features
+## 🌟 Overview
 
-- **Water Level Measurement:**  
-  Measures water level with an ultrasonic sensor and converts the readings into a percentage based on a user-defined calibration value.
-  
-- **Automatic & Manual Pump Control:**  
-  - **Automatic Mode:** The pump is activated when water level is low and deactivated when near capacity.  
-  - **Manual Mode:** Allows users to toggle the pump on/off regardless of water level.
+This project employs an ultrasonic sensor to measure water level and automatically controls a pump—with the option for manual override. **Key highlights include:**
 
-- **Calibration:**  
-  Users can calibrate the maximum water level, with the value saved in EEPROM for persistence.
+- **Accurate Measurement:** The sensor calculates water level percentage based on a calibrated value stored in EEPROM.
+- **Smart Pump Control:** A motor-driven wheel (representing a water pump) starts rotating when the water level is low and stops when the level is full.
+- **Prototype Innovation:** Instead of using real water, a paper model blocks the ultrasonic sensor to mimic the water level in a tank.
 
-- **Real-Time Feedback:**  
-  Displays water level percentage, pump status (ON/OFF), and mode (MANUAL/AUTO) on an I²C LCD.
+> **Check the image above for our working model!**
 
 ---
 
-## Hardware & Software
+## 🚀 Features
+
+- **Real-Time Monitoring:**  
+  The ultrasonic sensor provides continuous water level readings, which are displayed on an I²C LCD.
+
+- **Automatic & Manual Modes:**  
+  The system switches to automatic pump control when water is low and allows manual override via push buttons.
+
+- **Prototype Simulation:**  
+  Our model uses a motor and wheel to simulate a water pump—when activated, the wheel spins (indicating water pumping), and it stops when the simulated tank is full.
+
+> **Working Model Video Demo:**  
+> [Watch the Demo](https://link-to-demo-video.com)
+
+---
+
+## 🔧 Hardware & Software
 
 ### Hardware Components
 
-- Ultrasonic Sensor (for water level measurement)
-- Arduino (or compatible microcontroller)
-- I²C LCD Display
-- Water Pump (controlled via a relay)
-- Push Buttons (for manual control and calibration)
-- Supporting hardware for the working model
+- **Ultrasonic Sensor:** Measures water level.
+- **I²C LCD Display:** Shows water level, pump status, and operating mode.
+- **Motor & Wheel:** Mimic a water pump; the wheel rotates when the pump is on.
+- **Push Buttons & Switches:** Facilitate manual calibration and pump control.
+- **Paper Tank Model:** Simulates water by blocking the ultrasonic sensor.
 
 ### Software Components
 
-- **Programming Language:** C/C++ (Arduino)
-- **Libraries:**  
+- **Platform:** Arduino (C/C++ programming)
+- **Libraries Used:**
   - `EEPROM`
   - `Wire`
   - `LiquidCrystal_I2C`
 
 ---
 
-## Demo & Documentation
+## 📚 Documentation & Resources
 
-- **Working Demo Video:**  
-  [Watch the Demo](https://link-to-demo-video.com)  
-  *(Replace with your actual demo video link)*
-
+- **Working Demo Video:** [Watch Here](https://link-to-demo-video.com)
 - **Photo of the Model:**  
-  ![Model Photo](https://link-to-model-photo.com)  
-  *(Replace with your actual photo link)*
-
-- **Project Report:**  
-  [Download Project Report](https://link-to-project-report.com)  
-  *(Replace with your actual report link)*
-
-- **IEEE Paper:**  
-  [Download IEEE Paper](https://link-to-ieee-paper.com)  
-  *(Replace with your actual IEEE paper link)*
+  ![Model Photo](https://link-to-your-model-photo.com)
+- **Project Report:** [Download Report](https://link-to-project-report.com)
+- **IEEE Paper:** [Download IEEE Paper](https://link-to-ieee-paper.com)
 
 ---
 
-## Getting Started
+## ⚙️ Getting Started
 
 ### Prerequisites
 
-- Arduino IDE installed on your computer.
-- Required Arduino libraries (use the Library Manager in Arduino IDE to install if not already available).
+- Arduino IDE installed with required libraries.
+- Basic understanding of Arduino programming and electronic circuit assembly.
 
-### How to Upload
+### Setup Instructions
 
-1. **Connect** your Arduino board to your computer.
-2. **Open** the project file in the Arduino IDE.
-3. **Select** the correct board and port under the Tools menu.
-4. **Verify** the code to check for errors.
-5. **Upload** the code to your Arduino board.
+1. **Assemble the Hardware:**  
+   Follow the schematic to connect the ultrasonic sensor, LCD, motor, and push buttons to your Arduino.
 
----
+2. **Upload the Code:**  
+   Open the project in Arduino IDE, select the correct board and port, and upload the code.
 
-## Acknowledgements
-
-This project was developed as part of the **Computer Organization and Architecture** and **Design Thinking and Management** courses. Special thanks to our mentors and team members for their support and contributions in building the working hardware model.
+3. **Calibrate & Run:**  
+   Use the provided buttons to calibrate the system and observe real-time water level monitoring and pump control.
 
 ---
 
-## License
+## 🙏 Acknowledgements
+
+This project was developed during the **Computer Organization and Architecture** and **Design Thinking and Management** courses. We extend our gratitude to our mentors and team members for their invaluable support in both design and implementation.
+
+---
+
+## 📄 License
 
 This project is open-source. Feel free to use, modify, and share it under your preferred license.
-
-
-# Water-Level-Controller
